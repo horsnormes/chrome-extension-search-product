@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "GroceryResearch",
+  "version": "1.0",
+  "description": "Permet de chercher un produit sur plusieurs sites.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/grocery.png",
+      "48": "images/grocery.png",
+      "128": "images/grocery.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

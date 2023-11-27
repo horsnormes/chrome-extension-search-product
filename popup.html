@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet"
+  />
+  
+</head>
+<body>
+  <form id="myForm">
+    <div>
+      <label>Nom du produit :</label>
+      <input type="text" id="urlInput" required>
+    </div>
+    <button type="submit">Rechercher</button>
+  </form>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
+<style>
+  body {
+      font-family: 'Poppins', sans-serif;
+      background-color: transparent;
+      border-radius: 20px;
+      width: 300px;
+      padding: 40px;
+      margin: 0;
+  } 
+
+  #myForm {
+    display: grid;
+    row-gap: 20px;
+  }
+
+  label {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  div {
+    display: grid;
+    row-gap: 8px;
+  }
+
+  input {
+    border: solid 1px #BECAC4;
+    border-radius: 90px;
+    padding: 12px;
+    transition: all .2s ease;
+    outline: none;
+    width: calc(100% - 24px);
+  }
+
+  input:hover, input:active {
+    border-color: #9c370c;
+  }
+
+  input:focus {
+    border-color: #9c370c;
+    box-shadow: 0 0 0 4px #facfbd
+  }
+
+  button {
+    display: flex;
+    font-weight: 600;
+    line-height: 1.5rem;
+    width: 100%;
+    padding: 12px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    transition: all .2s ease;
+    cursor: pointer;
+    color: #272100;
+    background-color: #FED40F;
+    border: none;
+    font-size: 14px;
+  }
+
+  button:hover {
+    background-color: #CF490F;
+    color: #fff
+  }
+
+  .button:active {
+    background-color:  #9C370C;
+    color: #fff
+  }
+</style>
