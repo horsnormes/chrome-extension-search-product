@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "GroceryResearch",
+  "name": "SearchProduct",
   "version": "1.0",
   "description": "Permet de chercher un produit sur plusieurs sites.",
   "action": {
